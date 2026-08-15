@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobil | AYASCELL Ecosystem</title>
+    
+    <link rel="canonical" href="https://ayascell.com/ayascell-ecosystem/mobile.html">
+    <meta name="description" content="AYASCELL mobil uygulamaları.">
+    <meta name="author" content="AYASCELL">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="AYASCELL">
+    <meta property="og:url" content="https://ayascell.com/ayascell-ecosystem/mobile.html">
+    <meta property="og:title" content="Mobil | AYASCELL Ecosystem">
+    <meta property="og:description" content="AYASCELL mobil uygulamaları.">
+    <meta property="og:image" content="https://ayascell.com/assets/2-Photoroom.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/2-Photoroom.png">
+    <link rel="apple-touch-icon" href="assets/2-Photoroom.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <canvas id="starfield-canvas"></canvas>
+    <div class="glass-overlay"></div>
+
+    <!-- Header Navigation -->
+    <header class="main-header">
+        <nav class="navbar">
+            <a href="index.html" class="logo-link">
+                <img src="assets/2-Photoroom.png" alt="AYASCELL Logo" class="header-logo-image">
+                <span class="gradient-text header-logo-text glow-text">AYASCELL Ecosystem</span>
+            </a>
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li>
+                    <a href="index.html">
+                        <i class="fas fa-home"></i>
+                        <span class="lang-en">Home</span>
+                        <span class="lang-tr">Ana Sayfa</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://ayascell.com/">
+                        <i class="fas fa-arrow-left"></i>
+                        <span class="lang-en">Developer</span>
+                        <span class="lang-tr">Geliştirici</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="desktop.html">
+                        <i class="fas fa-desktop"></i>
+                        <span class="lang-en">Desktop</span>
+                        <span class="lang-tr">Masaüstü</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="mobile.html" class="active">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span class="lang-en">Mobile</span>
+                        <span class="lang-tr">Mobil</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="games.html">
+                        <i class="fas fa-gamepad"></i>
+                        <span class="lang-en">Games</span>
+                        <span class="lang-tr">Oyunlar</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://ayascell.com/AyasOS/" target="_blank">
+                        <i class="fas fa-compact-disc"></i>
+                        <span class="lang-en">Ayas OS</span>
+                        <span class="lang-tr">Ayas OS</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://ayascell.com/ayas-discussions/" target="_blank">
+                        <i class="fas fa-comments"></i>
+                        <span class="lang-en">Community</span>
+                        <span class="lang-tr">Topluluk</span>
+                    </a>
+                </li>
+                <li>
+                    <button id="lang-toggle" class="lang-btn">
+                        <i class="fas fa-globe"></i> <span id="current-lang">TR</span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Subpage Banner -->
+    <section class="hero-section" style="padding-top: 130px; padding-bottom: 40px;">
+        <div class="container">
+            <h1 class="gradient-text mega-title glow-text">
+                <span class="lang-en">Mobile Applications</span>
+                <span class="lang-tr">Mobil Uygulamalar</span>
+            </h1>
+            <p class="subtitle">
+                <span class="lang-en">Modern, lightweight, and intuitive mobile solutions for Android & iOS.</span>
+                <span class="lang-tr">Android ve iOS cihazlar için pratik, modern ve kullanıcı dostu mobil
+                    çözümler.</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- Mobile Apps Placeholder Section -->
+    <section class="container" style="margin-bottom: 80px;">
+        <div class="glass-card premium-border" style="max-width: 700px; margin: 40px auto; padding: 60px 30px; text-align: center; border-radius: 24px;">
+            <div style="width: 90px; height: 90px; margin: 0 auto 24px; background: rgba(0, 216, 255, 0.1); border: 1px solid rgba(0, 216, 255, 0.25); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 25px rgba(0, 216, 255, 0.2);">
+                <i class="fas fa-mobile-alt glow-text" style="font-size: 2.5em; color: #00D8FF;"></i>
+            </div>
+            <h3 class="gradient-text glow-text" style="font-size: 2em; margin-bottom: 12px;">
+                <span class="lang-tr">Henüz Uygulama Bulunmuyor</span>
+                <span class="lang-en">No Mobile Apps Available Yet</span>
+            </h3>
+            <p style="font-size: 1.1em; opacity: 0.8; max-width: 500px; margin: 0 auto 30px; line-height: 1.6;">
+                <span class="lang-tr">Mobil uygulamalarımız şu anda geliştirme ve yayınlama aşamasındadır. Yakında yeni projelerimiz burada yer alacaktır.</span>
+                <span class="lang-en">Our mobile applications are currently in active development. New projects will be showcased here soon.</span>
+            </p>
+            <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+                <a href="index.html" class="link-button solid gold-gradient">
+                    <i class="fas fa-home"></i>
+                    <span class="lang-tr">Ana Sayfaya Dön</span>
+                    <span class="lang-en">Back to Home</span>
+                </a>
+                <a href="games.html" class="link-button outline">
+                    <i class="fas fa-gamepad"></i>
+                    <span class="lang-tr">Oyunlarımızı İnceleyin</span>
+                    <span class="lang-en">Explore Our Games</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/ayascell" target="_blank" class="social-icon"><i
+                        class="fab fa-github"></i></a>
+                <a href="index.html" class="social-icon"><i class="fas fa-home"></i></a>
+            </div>
+            <p class="copyright-text">&copy; <span class="current-year"></span> AYASCELL</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

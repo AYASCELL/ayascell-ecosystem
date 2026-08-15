@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oyunlar | AYASCELL Ecosystem</title>
+    
+    <link rel="canonical" href="https://ayascell.com/ayascell-ecosystem/games.html">
+    <meta name="description" content="AYASCELL bağımsız mobil ve masaüstü oyunları.">
+    <meta name="author" content="AYASCELL">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="AYASCELL">
+    <meta property="og:url" content="https://ayascell.com/ayascell-ecosystem/games.html">
+    <meta property="og:title" content="Oyunlar | AYASCELL Ecosystem">
+    <meta property="og:description" content="AYASCELL bağımsız mobil ve masaüstü oyunları.">
+    <meta property="og:image" content="https://ayascell.com/assets/2-Photoroom.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/2-Photoroom.png">
+    <link rel="apple-touch-icon" href="assets/2-Photoroom.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <canvas id="starfield-canvas"></canvas>
+    <div class="glass-overlay"></div>
+
+    <!-- Header Navigation -->
+    <header class="main-header">
+        <nav class="navbar">
+            <a href="index.html" class="logo-link">
+                <img src="assets/2-Photoroom.png" alt="AYASCELL Logo" class="header-logo-image">
+                <span class="gradient-text header-logo-text glow-text">AYASCELL Ecosystem</span>
+            </a>
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li>
+                    <a href="index.html">
+                        <i class="fas fa-home"></i>
+                        <span class="lang-en">Home</span>
+                        <span class="lang-tr">Ana Sayfa</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://ayascell.com/">
+                        <i class="fas fa-arrow-left"></i>
+                        <span class="lang-en">Developer</span>
+                        <span class="lang-tr">Geliştirici</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="desktop.html">
+                        <i class="fas fa-desktop"></i>
+                        <span class="lang-en">Desktop</span>
+                        <span class="lang-tr">Masaüstü</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="mobile.html">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span class="lang-en">Mobile</span>
+                        <span class="lang-tr">Mobil</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="games.html" class="active">
+                        <i class="fas fa-gamepad"></i>
+                        <span class="lang-en">Games</span>
+                        <span class="lang-tr">Oyunlar</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://ayascell.com/AyasOS/" target="_blank">
+                        <i class="fas fa-compact-disc"></i>
+                        <span class="lang-en">Ayas OS</span>
+                        <span class="lang-tr">Ayas OS</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://ayascell.com/ayas-discussions/" target="_blank">
+                        <i class="fas fa-comments"></i>
+                        <span class="lang-en">Community</span>
+                        <span class="lang-tr">Topluluk</span>
+                    </a>
+                </li>
+                <li>
+                    <button id="lang-toggle" class="lang-btn">
+                        <i class="fas fa-globe"></i> <span id="current-lang">TR</span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Subpage Banner -->
+    <section class="hero-section" style="padding-top: 130px; padding-bottom: 40px;">
+        <div class="container">
+            <h1 class="gradient-text mega-title glow-text">
+                <span class="lang-en">Games & Entertainment</span>
+                <span class="lang-tr">Oyunlar & Eğlence</span>
+            </h1>
+            <p class="subtitle">
+                <span class="lang-en">Fun independent games, strategic puzzles, and exciting arcade experiences.</span>
+                <span class="lang-tr">Eğlenceli bağımsız oyunlar, stratejik bulmacalar ve heyecanlı arcade deneyimleri.</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- Games Grid -->
+    <section class="container" style="margin-bottom: 80px;">
+        <div class="showcase-grid">
+
+            <!-- Game 4: Astro Planet Merge -->
+            <div class="project-card glass-card premium-border hover-lift">
+                <div>
+                    <div class="project-header">
+                        <span class="project-badge badge-testing"><i class="fas fa-flask"></i> Kapalı Test / Closed
+                            Beta</span>
+                        <img src="assets/astro-planet-icon.png" alt="Astro Planet Merge Logo" class="app-card-icon">
+                    </div>
+                    <h4>Astro Planet Merge</h4>
+                    <p>
+                        <span class="lang-en">Cosmic merge puzzle game. Drop and combine small celestial bodies to
+                            create massive planets and solar systems.</span>
+                        <span class="lang-tr">Uzay temalı gezegen birleştirme oyunu. Küçük gök cisimlerini düşürerek
+                            devasa gezegenler oluşturma bulmacası.</span>
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Space Puzzle</span>
+                        <span class="tech-tag">Merge Mechanics</span>
+                    </div>
+                </div>
+                <div class="project-links-row" style="flex-wrap: wrap; gap: 10px;">
+                    <a href="https://forms.gle/T1xgNxnQL53AFzpQ7" target="_blank" class="link-button beta-button">
+                        <i class="fas fa-edit"></i> <span class="lang-en">Join Closed Beta</span><span
+                            class="lang-tr">Kapalı Teste Katıl</span>
+                    </a>
+                    <a href="closed-beta-guide.html" class="link-button outline">
+                        <i class="fas fa-book-open"></i> <span class="lang-en">How to Join? (Guide)</span><span
+                            class="lang-tr">Nasıl Katılınır? (Resimli Rehber)</span>
+                    </a>
+                </div>
+                <p style="font-size: 0.83em; opacity: 0.8; margin-top: 12px; line-height: 1.4;">
+                    <i class="fas fa-clock" style="color: var(--primary-gold); margin-right: 5px;"></i>
+                    <span class="lang-tr">Test davet e-postası başvurunuzdan sonra gün içerisinde (en geç 1-2 gün içinde) iletilmektedir.</span>
+                    <span class="lang-en">Test invitation email is sent within the day (at most within 1-2 days) after applying.</span>
+                </p>
+            </div>
+
+            <!-- Game 5: Ayakta Kal -->
+            <div class="project-card glass-card premium-border hover-lift">
+                <div>
+                    <div class="project-header">
+                        <span class="project-badge badge-game">Clicker Game</span>
+                        <img src="assets/ayakta-kal-icon.png" alt="Ayakta Kal Logo" class="app-card-icon">
+                    </div>
+                    <h4>Ayakta Kal</h4>
+                    <p>
+                        <span class="lang-en">The simplest, most relaxing, and addictive clicker game to fill your spare
+                            time.</span>
+                        <span class="lang-tr">Boş zamanınızı değerlendirmek için en basit, en rahatlatıcı ve bağımlılık
+                            yapan tıklama oyunu.</span>
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Mobile Game</span>
+                        <span class="tech-tag">Clicker Challenge</span>
+                    </div>
+                </div>
+                <div class="project-links-row">
+                    <a href="https://play.google.com/store/apps/details?id=com.ayascell.ayaktakal" target="_blank"
+                        class="link-button solid">
+                        <i class="fab fa-google-play"></i> <span class="lang-en">Play Store</span><span
+                            class="lang-tr">Play Store</span>
+                    </a>
+                    <!--<a href="https://github.com/AYASCELL" target="_blank" class="link-button outline">
+                        <i class="fab fa-github"></i> <span class="lang-en">GitHub</span><span class="lang-tr">GitHub</span>
+                    </a>-->
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/ayascell" target="_blank" class="social-icon"><i
+                        class="fab fa-github"></i></a>
+                <a href="index.html" class="social-icon"><i class="fas fa-home"></i></a>
+            </div>
+            <p class="copyright-text">&copy; <span class="current-year"></span> AYASCELL</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
