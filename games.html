@@ -142,11 +142,89 @@
         </div>
     </section>
 
+    <!-- Shared Closed Beta Announcement Banner -->
+    <section class="container" style="margin-bottom: 40px;">
+        <div class="glass-card premium-border"
+            style="padding: 32px 24px; border-radius: 16px; background: rgba(212, 175, 55, 0.05); border-color: rgba(212, 175, 55, 0.35); text-align: center;">
+            <div
+                style="display: inline-flex; align-items: center; gap: 8px; background: rgba(212, 175, 55, 0.15); border: 1px solid var(--primary-gold); padding: 6px 18px; border-radius: 20px; color: var(--primary-gold); font-size: 0.9em; font-weight: 600; margin-bottom: 16px;">
+                <i class="fas fa-flask"></i> <span class="lang-tr">Ortak Kapalı Test Programı</span><span
+                    class="lang-en">Unified Closed Beta Program</span>
+            </div>
+            <h3 style="font-size: 1.6em; margin-bottom: 12px;" class="gradient-text glow-text">
+                <span class="lang-tr">Yeni Oyunlarımızı İlk Siz Deneyimleyin!</span>
+                <span class="lang-en">Be the First to Play Our New Games!</span>
+            </h3>
+            <p style="max-width: 760px; margin: 0 auto 24px; line-height: 1.6; opacity: 0.9;">
+                <span class="lang-tr">Geliştirme aşamasındaki tüm oyunlarımızın (Astro Planet Merge, Neon Puck Strike
+                    vb.) kapalı test süreçleri <strong>tek bir ortak başvuru formu</strong> üzerinden yürütülmektedir.
+                    Formu bir kez doldurarak Google Play test grubumuza katılabilir ve tüm kapalı beta oyunlarımıza
+                    doğrudan erişebilirsiniz.</span>
+                <span class="lang-en">Closed beta testing for all our upcoming games (Astro Planet Merge, Neon Puck
+                    Strike, etc.) is managed through a <strong>single unified form</strong>. Submit once to join our
+                    Google Play tester group and unlock direct access to all beta releases.</span>
+            </p>
+            <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+                <a href="https://forms.gle/T1xgNxnQL53AFzpQ7" target="_blank" class="link-button beta-button"
+                    style="padding: 12px 26px; font-size: 1em;">
+                    <i class="fas fa-edit"></i> <span class="lang-tr">Kapalı Test Başvuru Formu</span><span
+                        class="lang-en">Join Closed Beta Form</span>
+                </a>
+                <a href="closed-beta-guide.html" class="link-button outline"
+                    style="padding: 12px 26px; font-size: 1em;">
+                    <i class="fas fa-book-open"></i> <span class="lang-tr">Nasıl Katılınır? (Resimli Rehber)</span><span
+                        class="lang-en">How to Join? (Guide)</span>
+                </a>
+            </div>
+            <p style="font-size: 0.83em; opacity: 0.75; margin-top: 16px; margin-bottom: 0;">
+                <i class="fas fa-clock" style="color: var(--primary-gold); margin-right: 5px;"></i>
+                <span class="lang-tr">Başvurunuz incelendikten sonra davet e-postası en geç 1-2 gün içerisinde
+                    iletilmektedir.</span>
+                <span class="lang-en">Invitations are sent via email within 1-2 business days after application
+                    review.</span>
+            </p>
+        </div>
+    </section>
+
     <!-- Games Grid -->
     <section class="container" style="margin-bottom: 80px;">
         <div class="showcase-grid">
 
-            <!-- Game 4: Astro Planet Merge -->
+            <!-- Game 1: Neon Puck Strike -->
+            <div class="project-card glass-card premium-border hover-lift">
+                <div>
+                    <div class="project-header">
+                        <span class="project-badge badge-testing"><i class="fas fa-flask"></i> Kapalı Test / Closed
+                            Beta</span>
+                        <img src="assets/neon-puck-icon.png" alt="Neon Puck Strike Logo" class="app-card-icon">
+                    </div>
+                    <h4>Neon Puck Strike</h4>
+                    <p>
+                        <span class="lang-en">Fast-paced futuristic neon air hockey & puck battle game. Challenge AI or
+                            friends with glowing physics.</span>
+                        <span class="lang-tr">Hızlı tempolu, fütüristik neon hava hokeyi ve disk savaşı oyunu. Işıltılı
+                            fizik mekanikleriyle reflekslerinizi test edin.</span>
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Air Hockey</span>
+                        <span class="tech-tag">Neon Physics</span>
+                    </div>
+                </div>
+                <div class="project-links-row" style="flex-wrap: wrap; gap: 10px;">
+                    <a href="https://play.google.com/store/apps/details?id=com.ayascell.neonpuckstrike" target="_blank"
+                        class="link-button solid">
+                        <i class="fab fa-google-play"></i> <span class="lang-en">Play Store</span><span
+                            class="lang-tr">Play Store</span>
+                    </a>
+                    <a href="https://play.google.com/apps/testing/com.ayascell.neonpuckstrike" target="_blank"
+                        class="link-button outline">
+                        <i class="fas fa-flask"></i> <span class="lang-en">Web Testing</span><span class="lang-tr">Web
+                            Test Sayfası</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Game 2: Astro Planet Merge -->
             <div class="project-card glass-card premium-border hover-lift">
                 <div>
                     <div class="project-header">
@@ -167,25 +245,20 @@
                     </div>
                 </div>
                 <div class="project-links-row" style="flex-wrap: wrap; gap: 10px;">
-                    <a href="https://forms.gle/T1xgNxnQL53AFzpQ7" target="_blank" class="link-button beta-button">
-                        <i class="fas fa-edit"></i> <span class="lang-en">Join Closed Beta</span><span
-                            class="lang-tr">Kapalı Teste Katıl</span>
+                    <a href="https://play.google.com/store/apps/details?id=com.ayascell.astroplanetmerge"
+                        target="_blank" class="link-button solid">
+                        <i class="fab fa-google-play"></i> <span class="lang-en">Play Store</span><span
+                            class="lang-tr">Play Store</span>
                     </a>
-                    <a href="closed-beta-guide.html" class="link-button outline">
-                        <i class="fas fa-book-open"></i> <span class="lang-en">How to Join? (Guide)</span><span
-                            class="lang-tr">Nasıl Katılınır? (Resimli Rehber)</span>
+                    <a href="https://play.google.com/apps/testing/com.ayascell.astroplanetmerge" target="_blank"
+                        class="link-button outline">
+                        <i class="fas fa-flask"></i> <span class="lang-en">Web Testing</span><span class="lang-tr">Web
+                            Test Sayfası</span>
                     </a>
                 </div>
-                <p style="font-size: 0.83em; opacity: 0.8; margin-top: 12px; line-height: 1.4;">
-                    <i class="fas fa-clock" style="color: var(--primary-gold); margin-right: 5px;"></i>
-                    <span class="lang-tr">Test davet e-postası başvurunuzdan sonra gün içerisinde (en geç 1-2 gün
-                        içinde) iletilmektedir.</span>
-                    <span class="lang-en">Test invitation email is sent within the day (at most within 1-2 days) after
-                        applying.</span>
-                </p>
             </div>
 
-            <!-- Game 5: Ayakta Kal -->
+            <!-- Game 3: Ayakta Kal -->
             <div class="project-card glass-card premium-border hover-lift">
                 <div>
                     <div class="project-header">
@@ -214,49 +287,6 @@
                         <i class="fab fa-github"></i> <span class="lang-en">GitHub</span><span class="lang-tr">GitHub</span>
                     </a bu kısmı silme ai tamammı. dursun burası>-->
                 </div>
-            </div>
-
-            <!-- Game: Neon Puck Strike -->
-            <div class="project-card glass-card premium-border hover-lift">
-                <div>
-                    <div class="project-header">
-                        <span class="project-badge badge-testing"><i class="fas fa-flask"></i> Kapalı Test / Closed
-                            Beta</span>
-                        <img src="assets/neon-puck-icon.png" alt="Neon Puck Strike Logo" class="app-card-icon">
-                    </div>
-                    <h4>Neon Puck Strike</h4>
-                    <p>
-                        <span class="lang-en">Fast-paced futuristic neon air hockey & puck battle game. Challenge AI or
-                            friends with glowing physics.</span>
-                        <span class="lang-tr">Hızlı tempolu, fütüristik neon hava hokeyi ve disk savaşı oyunu. Işıltılı
-                            fizik mekanikleriyle reflekslerinizi test edin.</span>
-                    </p>
-                    <div class="tech-tags">
-                        <span class="tech-tag">Air Hockey</span>
-                        <span class="tech-tag">Neon Physics</span>
-                    </div>
-                </div>
-                <div class="project-links-row" style="flex-wrap: wrap; gap: 10px;">
-                    <a href="https://play.google.com/apps/testing/com.ayascell.neonpuckstrike" target="_blank" class="link-button beta-button">
-                        <i class="fas fa-flask"></i> <span class="lang-en">Join Web Test</span><span
-                            class="lang-tr">Test Sayfası (Web)</span>
-                    </a>
-                    <a href="https://play.google.com/store/apps/details?id=com.ayascell.neonpuckstrike" target="_blank" class="link-button solid">
-                        <i class="fab fa-google-play"></i> <span class="lang-en">Play Store</span><span
-                            class="lang-tr">Play Store</span>
-                    </a>
-                    <a href="closed-beta-guide.html" class="link-button outline">
-                        <i class="fas fa-book-open"></i> <span class="lang-en">How to Join? (Guide)</span><span
-                            class="lang-tr">Nasıl Katılınır? (Rehber)</span>
-                    </a>
-                </div>
-                <p style="font-size: 0.83em; opacity: 0.8; margin-top: 12px; line-height: 1.4;">
-                    <i class="fas fa-clock" style="color: var(--primary-gold); margin-right: 5px;"></i>
-                    <span class="lang-tr">Test davet e-postası başvurunuzdan sonra gün içerisinde (en geç 1-2 gün
-                        içinde) iletilmektedir.</span>
-                    <span class="lang-en">Test invitation email is sent within the day (at most within 1-2 days) after
-                        applying.</span>
-                </p>
             </div>
 
         </div>
